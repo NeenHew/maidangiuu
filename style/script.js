@@ -40,12 +40,12 @@ function splitLines(text, wordsPerLine) {
 
 // Dùng \n để tách dòng rõ ràng, tránh lỗi hiển thị
 const fullText1 = (
-  "Anh làm này là để tặng Mai\n" + "ngày 8/3 nèee"
+  "web nay tí làm\n" + "mốt đem i kiếm mối"
 ).trim().split("\n");
 const fullText2 = (
-  "8/3 chúc em vui vẻ\n" + "và hạnh phúc nhaaa"
+  "Chúc ọc ọc ọc valentine\n" + "ngập tràn vui vẻ"
 ).trim().split("\n");
-const fullText3 = splitLines("moa~ moa~", 7);
+const fullText3 = splitLines("ọc ọc ọc", 7);
 
 const allTexts = [fullText1, fullText2, fullText3];
 
